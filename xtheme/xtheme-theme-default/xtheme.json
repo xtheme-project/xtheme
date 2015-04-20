@@ -1,0 +1,32 @@
+{
+    "name": "The default xtheme theme",
+    "description": "This is the default XTheme-theme",
+    "type": "theme",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com"
+        }
+    ],
+    "options": [
+        {
+            "id": "primary-color",
+            "type": "color",
+            "label": "Primary color",
+            "description": "The primary color"
+        }
+    ],
+    "views": [
+        "views/product/list",
+        "views/product/detail"
+    ],
+    "viewtypes": [
+        "viewtypes/product/list"
+    ],
+    "assets": [
+        "assets/logo.png"
+    ],
+    "requires": {
+        "core/default": "~1.0"
+    }
+}

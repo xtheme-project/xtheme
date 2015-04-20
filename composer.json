@@ -1,0 +1,26 @@
+{
+    "name": "xtheme/xtheme",
+    "description": "XTheme: Exchangable Themes Project",
+    "homepage": "http://www.github.com/xtheme-project/xtheme",
+    "keywords": ["xtheme", "handlebars", "package manager", "templates"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "twig/twig": ">=1.8,<2.0-dev",
+        "mustache/mustache": "~2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "XTheme\\": "src/"
+        }
+    }
+}

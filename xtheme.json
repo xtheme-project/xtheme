@@ -1,0 +1,10 @@
+{
+    "name": "xtheme-application",
+    "type": "application",
+    "requires": {
+        "xtheme-theme-default": "~1.0"
+    },
+    "viewtypes": {
+        "xtheme-theme-default:viewtypes/product/list"
+    }
+}
