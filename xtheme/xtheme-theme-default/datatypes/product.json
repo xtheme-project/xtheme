@@ -1,9 +1,0 @@
-{
-    "name": "Product",
-    "description": "A product",
-    "fields": [
-        {
-            "id": "code"
-        }
-    ]
-}
