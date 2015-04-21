@@ -2,7 +2,7 @@
 
 namespace XTheme\Common\Model;
 
-class XTheme
+class Package
 {
     private $id;
     
@@ -26,6 +26,18 @@ class XTheme
     public function setName($name)
     {
         $this->name = $name;
+    }
+    
+    private $version;
+    
+    public function getVersion()
+    {
+        return $this->version;
+    }
+    
+    public function setVersion($version)
+    {
+        $this->version = $version;
     }
     
     private $description;
@@ -68,4 +80,41 @@ class XTheme
     {
         return $this->views;
     }
+    
+    private $dependencies;
+    
+    public function addDependency(Dependency $dependency)
+    {
+        $this->dependencies[] = $dependency;
+    }
+    
+    public function getDependencies()
+    {
+        return $this->dependencies;
+    }
+    
+    private $sourceType;
+    
+    public function getSourceType()
+    {
+        return $this->sourceType;
+    }
+    
+    public function setSourceType($sourceType)
+    {
+        $this->sourceType = $sourceType;
+    }
+    
+    private $sourceUrl;
+    
+    public function getSourceUrl()
+    {
+        return $this->sourceUrl;
+    }
+    
+    public function setSourceUrl($sourceUrl)
+    {
+        $this->sourceUrl = $sourceUrl;
+    }
+    
 }

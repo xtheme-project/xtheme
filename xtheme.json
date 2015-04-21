@@ -4,7 +4,7 @@
     "requires": {
         "xtheme-theme-default": "~1.0"
     },
-    "viewtypes": {
+    "viewtypes": [
         "xtheme-theme-default:viewtypes/product/list"
-    }
+    ]
 }
